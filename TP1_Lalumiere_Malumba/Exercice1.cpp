@@ -15,6 +15,7 @@ int main() {
 	int tableau2[] = { 22, 33, 44, 61, 4, 99, 12, 17, 123, 15 };
 	int tableau3[] = { 22, 44, 12, 61, 4, 99, 33, 17, 15, 123 };
 
+	// Fonctionnement
 
 	int* tableau4 = concatenerTab(tableau1, tableau2, NB_ELEMENTS);
 	afficherTab(tableau1, NB_ELEMENTS);
